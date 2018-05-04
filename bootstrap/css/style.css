@@ -1,0 +1,7 @@
+.navbar-nav>li>.dropdown-menu{
+    background-color: #333333;
+}
+
+.dropdown-menu>li>a{
+    color: #cccccc
+}
