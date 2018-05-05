@@ -1,3 +1,7 @@
+body{
+    background-color: #333333 !important;
+}
+
 #wrapper{
     font-family: tahoma;
     margin-top: -20px;
@@ -33,8 +37,6 @@
   height: auto;
   margin-left: 10px;
 }
-
-/*Searching area styling*/
 
 /*user menu style*/
 #user-menu{
@@ -110,12 +112,251 @@
     background: #23527c
 }
 
+/*===================slider*/
+#slider{
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    margin: 0 auto;
+    margin-top: 40px;
+    -webkit-box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.3);
+    box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.2);
+}
 
+.bx-wrapper{
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+    border: none !important;
+    background: #333333 !important;
+    padding-top: 10px !important;
+    padding-bottom: 26px !important;
+    margin-bottom: 50px !important;
+}
 
+.bx-wrapper img{
+    margin: 0 auto;
+    border: 1px solid #111111;
+    border-radius: 6px;
 
+}
 
+.bx-wrapper .bx-pager{ 
+    padding-top: 0px !important;
+    bottom: 8px !important;
+}
+
+.bx-wrapper .bx-pager-item{
+    transform: scale(1.3);
+    margin-left: 3px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background: #cccccc !important;
+}
+
+/*================category*/
+/*Header*/
+#heading-block{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: #cccccc;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid #000;
+    padding-left: 10px;
+}
+
+/*Category boxes*/
+.container-cat_prod{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.catbox{
+    width: 250px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin:0px 20px 30px;
+    border-radius: 15px;
+    -webkit-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+
+}
+.catbox span{
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    color: #cccccc;
+    background: rgba(0,0,0, 0.25);
+    z-index: 999;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+
+.catbox:hover span{
+    color: white;
+}
+
+.catbox img{
+    width: 100%;
+    transition: transform 0.4s;
+}
+.catbox:hover img{
+    transform: scale(1.13,1.13);
+    transition: transform 0.5s;
+}
+
+/*products styling*/
+.prod-box{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 20px 35px;
+    position: relative;
+    float: left;
+    border-radius: 15px;
+    border: 2px solid #000;
+    -webkit-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+}
+
+.prod-box>img{
+    max-width: 100%;
+}
+
+.prod-trans{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .4s ease;
+}
+
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .4s ease;
+}
+
+.prod-feature{
+    text-align: center;
+    margin-top: -150px;
+    transition: all .5s ease;
+}
+
+.prod-feature p{
+    color: #337ab7;
+    font-family: verdana;
+}
+
+.prod-feature .first_p{
+    background: rgba(0,0,0,0.4);
+    padding: 6px 0px;
+}
+
+.prod-box:hover .prod-feature{
+    margin-top: 180px;
+    transition: all .5s ease;
+}
+
+.prod-feature input{
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+/*footer area*/
+.container-footer{
+    width: 90%;
+    margin: 0 auto;
+}
+#footer{
+    width:100%;
+    height: auto;
+    min-height: 250px;
+    background: #111111;
+    float: left;
+}
+
+#footer h2{
+    color: #aaa
+}
+
+.footer_sub_1{
+    width: 50%;
+    float: left;
+}
+.footer_sub_1 ul{
+    margin-left: 25px;
+}
+.footer_sub_1 a:hover{
+    text-decoration: none;
+}
+.footer_sub_1 li{
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer_sub_1 li:hover{
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+/*about us text-box*/
+.container-text{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-boxcontainer{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.text-boxcontainer p{
+    color: #cccccc;
+}
+
+strong
+{
+    font-weight: bold;
+}
 
 /*header mobile breakpoint*/
+@media only screen and (max-width: 1200px) {
+    .bx-wrapper .bx-pager-item{
+        transform: scale(1.1);
+        margin-left: 1px;
+    }
+    #slider{
+        margin-top: 30px;
+    }
+    .bx-wrapper{
+        margin-bottom: 30px !important;
+    }
+}
 @media only screen and (max-width: 778px) {
     #user-menu{
         margin-top: 28px;
@@ -145,6 +386,27 @@
     .search-btn{
         width: 25%;
     }
+    .bx-wrapper .bx-pager-item{
+        transform: scale(0.9);
+        margin-left: 0px;
+    }
+    .bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+        transform: scale(0.9);
+    }
+    .catbox{
+        transform: scale(0.8);
+        margin:0px;
+    }
+    .prod-box{
+        transform: scale(0.8);
+        margin:0px;       
+    }
+    #slider{
+        margin-top: 20px;
+    }
+    .bx-wrapper{
+        margin-bottom: 15px !important;
+    }
 }
 @media only screen and (max-width: 560px) {
     #user-menu{
@@ -167,6 +429,34 @@
     }
     #user-menu li:hover{
         font-size: 13px;
+    }
+    .bx-wrapper .bx-pager-item{
+        transform: scale(0.7);
+        margin-left: 0px;
+    }
+    .bx-wrapper .bx-prev, .bx-wrapper .bx-next{
+        transform: scale(0.6);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #slider{
+        margin-top: 10px;
+    }
+    .bx-wrapper{
+        margin-bottom: 5px !important;
+    }
+    #footer h2{
+        font-size: 26px;
+    }
+    .footer_sub_1 ul{
+        margin-left: 5px;
+    }
+    .footer_sub_1 li{
+        font-size: 12px;
+    }
+
+    .footer_sub_1 li:hover{
+        font-size: 14px;
     }
 }
 
