@@ -1,48 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="bootstrap/css/style.css">
+<style> 
+#main {
+    width: 400px;
+    height: 100px;
+    border: 1px solid #c3c3c3;
+    display: -webkit-flex; /* Safari */
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    display: flex;
+    justify-content: space-between;
+}
+
+#main div {
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+</style>
 </head>
-
 <body>
+<h1>The justify-content Property</h1>
 
-<nav class="navbar navbar-inverse navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Magazinul Luptatorulu</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Acasa</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produse<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Echipament</a></li>
-            <li><a href="#">Arme</a></li>
-            <li><a href="#">Promotii</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Sfaturi</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<p>The "justify-content: center;" aligns the flex items at the center of the container:</p>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<div id="main">
+  <div style="background-color:coral;">1</div>
+  <div style="background-color:lightblue;">2</div>
+  <div style="background-color:pink;">3</div>
+</div>
+
+<p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the justify-content property.</p>
+<p><b>Note:</b> Safari 6.1 (and newer) supports an alternative, the -webkit-justify-content property.</p>
+
 </body>
 </html>

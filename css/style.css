@@ -14,7 +14,7 @@ body{
 /*space between nav and main header*/
 #subheader{
     width: 100%;
-    height: 5px;
+    height: 75px;
     background: #333333;
     color: #cccccc;
     margin-top: -15; 
@@ -119,9 +119,7 @@ body{
     float: left;
     margin: 0 auto;
     margin-top: 40px;
-    -webkit-box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.3);
-    -moz-box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.3);
-    box-shadow: 0px 12px 10px 3px rgba(0,0,0,0.2);
+
 }
 
 .bx-wrapper{
@@ -177,8 +175,15 @@ body{
 .container-cat_prod{
     width: 90%;
     margin: 0 auto;
-    
 }
+#cat_blocks{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .catbox{
     width: 250px;
     height: 250px;
@@ -187,9 +192,9 @@ body{
     position: relative;
     margin:0px 20px 30px;
     border-radius: 15px;
-    -webkit-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
-    -moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+    -webkit-box-shadow:  0px 0px 40px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.8);
 
 }
 .catbox span{
@@ -220,6 +225,13 @@ body{
 }
 
 /*products styling*/
+.prod-container{
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .prod-box{
     width: 250px;
     height: 300px;
@@ -228,10 +240,10 @@ body{
     position: relative;
     float: left;
     border-radius: 15px;
-    border: 2px solid #000;
-    -webkit-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
-    -moz-box-shadow:  0px 0px 50px 0px rgba(0,0,0,0.8);
-    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.8);
+    border: 1px solid #000;
+    -webkit-box-shadow:  0px 0px 40px 0px rgba(0,0,0,0.8);
+    -moz-box-shadow:  0px 0px 40px 0px rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.8);
 }
 
 .prod-box>img{
@@ -386,6 +398,16 @@ strong
     .search-btn{
         width: 25%;
     }
+    #heading-block{
+        padding-top: 18px;
+        padding-bottom: 5px;
+    }
+
+    #heading-block h2{
+        font-size: 22px;
+        border-left: 15px solid #000;
+        padding-left: 10px;
+    }
     .bx-wrapper .bx-pager-item{
         transform: scale(0.9);
         margin-left: 0px;
@@ -458,8 +480,19 @@ strong
     .footer_sub_1 li:hover{
         font-size: 14px;
     }
-}
 
+}
+@media only screen and (max-width: 400px) {
+    #slider{
+        margin-top: 5px;
+    }
+    .bx-wrapper{
+        margin-bottom: 2px !important;
+    }
+    .logoImageCls{
+        content:url("../images/logo_img.png");
+    }
+}
 
 
 
