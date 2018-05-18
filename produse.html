@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Head Code-->
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!--navbar bootstrap-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <!--slider-->
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css">
+</head>
+<!--Body Code-->
+<body>
+    <!--Pagina-->
+    <div id="wrapper">
+        <!--header continue-->
+        <div id="header">
+            <!--Bara de navigare in bootstrap-->
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="./index.html">Spartan Shop</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="./index.html">Acasa</a></li>
+                            <li class="dropdown active">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Produse <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./produse.html">Echipament</a></li>
+                                    <li><a href="./produse.html">Arme</a></li>
+                                    <li><a href="./produse.html">Lupte</a></li>
+                                    <li><a href="./produse.html">MMA</a></li>
+                                    <li><a href="./produse.html">Saltele</a></li>
+                                    <li><a href="./produse.html">Promotii</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./sfaturi.html">Sfaturi</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./politica_firmei.html">Ajutor</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="./register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                            <li><a href="./index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--main header-->
+            <div id="main-header">
+                <div id="logo">
+                    <a href="./index.html"><img class="logoImageCls" src="images/logo_final.png" alt="Logo image"></a>
+                </div>
+
+                <div id="user-menu">
+                    <li id="user-menu-wish"><a href="./wishlist.html">Wishlist (0)</a></li>
+                    <li id="user-menu-cart"><a href="./cos_cumparaturi.html">Cart - 0 produs(e)</a></li>
+                    <li id="user-menu-user"><a href="./contul_meu.html">Username</a></li>
+                </div>
+            </div>
+            <div id="post-header">
+                <div id="search">
+                   <div id="spacer_1">.</div>
+                   <form action="">
+                       <input class="search-area" type="text" name="textSearch" placeholder="Search here...">
+                       <input class="search-btn" type="submit" name="submitBtn" value="Search">
+                   </form>                   
+                </div>
+            </div>
+        </div>
+
+       
+       
+        <!--ensure that the negative margin didn't pull the footer up and cover any content-->
+        <div class="push"></div>
+    </div>
+    
+    <!--footer area-->
+    <div id="footer">
+        <div class="container-footer">
+            <div class="footer_sub_1">
+               <h2>Informatii</h2>
+               <ul>
+                   <li><a href="./index.html">Despre noi</a></li>
+                   <li><a href="http://www.anpc.gov.ro/" target="_blank">ANPC</a></li>
+               </ul>
+            </div>
+            <div class="footer_sub_1">
+               <h2>Servicii</h2>
+               <ul>
+                   <li><a href="./contact.html">Contact</a></li>
+                   <li><a href="./politica_firmei.html">Livrare si Retur</a></li>
+                   <li><a href="./politica_firmei.html">Returnari</a></li>
+                   <li><a href="./politica_firmei.html">Ajutor</a></li>
+               </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--script fot bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--slider js-->
+    <script src="http://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

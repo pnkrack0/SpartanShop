@@ -1,23 +1,27 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
 body{
     background-color: #333333 !important;
 }
 
 #wrapper{
     font-family: tahoma;
-    margin-top: -20px;
+    margin-top: 0px;
+    
+    min-height: 100%;
+    margin-bottom: -240px;
 }
 
 .container{
     width: 90%;
     margin: 0 auto;
 }
-/*space between nav and main header*/
-#subheader{
-    width: 100%;
-    height: 75px;
-    background: #333333;
-    color: #cccccc;
-    margin-top: -15; 
+
+.navbar{
+    margin-bottom: 6px !important;
 }
 
 #main-header{
@@ -84,7 +88,7 @@ body{
     background: #333333;
     width: 100%;
     float: left;
-    padding: 6px;
+    padding: 6px 12px;
     margin: 0 auto;
 }
 .search-area{
@@ -302,10 +306,15 @@ body{
     width: 90%;
     margin: 0 auto;
 }
+
+.push{
+    height: 240px;
+}
+
 #footer{
     width:100%;
-    height: auto;
-    min-height: 250px;
+    height: 240px;
+    min-height: 240px;
     background: #111111;
     float: left;
 }
