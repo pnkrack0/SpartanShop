@@ -35,7 +35,7 @@
 
     .container-contact {
         background-color: #333333;
-        padding: 15px 30px;
+        padding: 15px 12px;
         float: left;
         width: 100%;
         margin-top: 10px;
@@ -46,19 +46,27 @@
     .container-contact form{
         border-radius: 5px;
         background-color: #f2f2f2;
-        padding: 20px;  
-        margin: 0px 10%;
+        padding: 20px;
         margin: 0 auto;
         max-width: 1000px;
     }
+    
+    .map-container{
+        padding: 5px 12px;
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
 
     #map{
-        float: right;
-        margin: 0px 5%;
-        margin-bottom: 50px;
-        width:90%;
-        height:450px;
+        margin: 0px auto;
+        margin-bottom: 35px;
+        width:100%;
+        height:420px;
         background: gray;
+        padding: 12px;  
+        max-width: 1000px;
     }
 </style>
     
@@ -90,7 +98,9 @@
   </form>
 </div>
 <!--Google map presentation-->
-<div id="map"></div>
+<div class="map-container">
+    <div id="map"></div>
+</div>
        
 <!--this is for google maps api to make it work-->    
 <script>
@@ -114,6 +124,8 @@
     if(li_page) {
         li_page.className += 'active';
     }
+    
+    document.title = "Contact";
 </script>
 
 

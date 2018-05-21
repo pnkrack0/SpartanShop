@@ -1,5 +1,3 @@
-        <!--ensure that the negative margin didn't pull the footer up and cover any content-->
-        <div class="push"></div>  
     </div>
         
     <!--footer area-->

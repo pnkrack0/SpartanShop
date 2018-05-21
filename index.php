@@ -8,7 +8,7 @@
         <li><a href="./produse.php"><img src="images/presentation/presentation_1.jpg" alt=""></a></li>
         <li><a href="./sfaturi.php"><img src="images/presentation/presentation_2.jpg" alt=""></a></li>
         <li><a href="./register.php"><img src="images/presentation/presentation_3.jpg" alt=""></a></li>
-        <li><a href="./produse.php"><img src="images/presentation/presentation_4.jpg" alt=""></a></li>
+        <li><a href="./produse.php?produse=promitii"><img src="images/presentation/presentation_4.jpg" alt=""></a></li>
     </ul>   
 </div>
 <!--category-->
@@ -19,32 +19,32 @@
     <div id="cat_blocks">
         <!--Echipament-->             
         <div class="catbox">
-            <a href="./produse.php" title="Echipament"><img src="images/categories/cat_echipament.jpg" alt="Echipament"></a>
+            <a href="./produse.php?produse=echipament" title="Echipament"><img src="images/categories/cat_echipament.jpg" alt="Echipament"></a>
             <span>Echipament</span>
         </div>       
         <!--Arme-->
         <div class="catbox">
-            <a href="./produse.php" title="Arme"><img src="images/categories/cat_arme.jpg" alt="Arme"></a>
+            <a href="./produse.php?produse=arme" title="Arme"><img src="images/categories/cat_arme.jpg" alt="Arme"></a>
             <span>Arme</span>
         </div>
         <!--Lupte-->
         <div class="catbox">
-            <a href="./produse.php" title="Lupte"> <img src="images/categories/cat_lupte.jpg" alt="Lupte"></a>
+            <a href="./produse.php?produse=lupte" title="Lupte"> <img src="images/categories/cat_lupte.jpg" alt="Lupte"></a>
             <span>Lupte</span>
         </div>
         <!--MMA-->
         <div class="catbox">
-            <a href="./produse.php" title="MMA">  <img src="images/categories/cat_mma.png" alt="MMA"></a>
+            <a href="./produse.php?produse=mma" title="MMA">  <img src="images/categories/cat_mma.png" alt="MMA"></a>
             <span>MMA</span>
         </div>
         <!--Saltele-->
         <div class="catbox">
-            <a href="./produse.php" title="Saltele"> <img src="images/categories/cat_saltele.jpg" alt="Saltele"></a>
+            <a href="./produse.php?produse=saltele" title="Saltele"> <img src="images/categories/cat_saltele.jpg" alt="Saltele"></a>
             <span>Saltele</span>
         </div>
         <!--Promotii-->
         <div class="catbox">
-            <a href="./produse.php" title="Promotii"><img src="images/categories/cat_promotii.jpg" alt="Promotii"></a>
+            <a href="./produse.php?produse=promitii" title="Promotii"><img src="images/categories/cat_promotii.jpg" alt="Promotii"></a>
             <span>Promotii</span>
         </div>
     </div>
@@ -58,7 +58,7 @@
     <div class="prod-container">
         <!--first product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_1.jpg" alt="Katana otel">
+            <a href="./produs_pres.php?id_prod=1"><img src="images/products/newprod_1.jpg" alt="Katana otel">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Katana Otel</p>
@@ -69,7 +69,7 @@
         </div>
         <!--2 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_2.jpg" alt="Nunchaku">
+            <a href="./produs_pres.php?id_prod=3"><img src="images/products/newprod_2.jpg" alt="Nunchaku">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Nunchaku</p>
@@ -80,7 +80,7 @@
         </div>
         <!--3 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_3.jpg" alt="Sai">
+            <a href="./produs_pres.php?id_prod=5"><img src="images/products/newprod_3.jpg" alt="Sai">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Sai</p>
@@ -91,7 +91,7 @@
         </div>
         <!--4 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_4.png" alt="Sabie Cauciuc">
+            <a href="./produs_pres.php?id_prod=7"><img src="images/products/newprod_4.png" alt="Sabie Cauciuc">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Sabie Cauciuc</p>
@@ -102,7 +102,7 @@
         </div>
         <!--5 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_5.jpg" alt="Manusi Energy">
+            <a href="./produs_pres.php?id_prod=12"><img src="images/products/newprod_5.jpg" alt="Manusi Energy">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Manusi Energy</p>
@@ -113,7 +113,7 @@
         </div>
         <!--6 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_6.jpg" alt="Casca Training">
+            <a href="./produs_pres.php?id_prod=13"><img src="images/products/newprod_6.jpg" alt="Casca Training">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Casca Training</p>
@@ -124,7 +124,7 @@
         </div>
         <!--7 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_7.jpg" alt="Kimono">
+            <a href="./produs_pres.php?id_prod=9"><img src="images/products/newprod_7.jpg" alt="Kimono">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Kimono</p>
@@ -135,7 +135,7 @@
         </div>
         <!--8 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_8.jpg" alt="Ghete Combat">
+            <a href="./produs_pres.php?id_prod=14"><img src="images/products/newprod_8.jpg" alt="Ghete Combat">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Ghete Combat</p>
@@ -146,7 +146,7 @@
         </div>
         <!--9 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_9.jpg" alt="Ghiozdan Military">
+            <a href="./produs_pres.php?id_prod=15"><img src="images/products/newprod_9.jpg" alt="Ghiozdan Military">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Ghiozdan Military</p>
@@ -157,7 +157,7 @@
         </div>
         <!--10 product-->         
         <div class="prod-box">
-            <a href="./produs_pres.php"><img src="images/products/newprod_10.jpg" alt="Short">
+            <a href="./produs_pres.php?id_prod=10"><img src="images/products/newprod_10.jpg" alt="Short">
             <div class="prod-trans">
                 <div class="prod-feature">
                     <p class="first_p">Short</p>
@@ -210,8 +210,11 @@
     if(li_page) {
         li_page.className += ' active';
     }
+    
+    document.title = "Home Page";
 </script>
 
 
 
 <?php include "include/footer.php";?>
+    

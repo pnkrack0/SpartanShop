@@ -10,9 +10,10 @@ body{
 #wrapper{
     font-family: tahoma;
     margin-top: 0px;
+    min-height: 1000px;
     
     min-height: 100%;
-    margin-bottom: -240px;
+    margin-bottom: 0px !important;
 }
 
 .container{
@@ -50,19 +51,15 @@ body{
 }
 #user-menu li{
     float: left;
-    width:105px;
     text-align: center;
     list-style: none;
     font-size: 15px;
     border-left: 1px solid white;
     transition: all 0.3s ease;
+    padding: 0px 15px;
 }
-#user-menu #user-menu-cart{
-    width: 165px;
-}
-#user-menu #user-menu-wish{
-    width: 125px;
-}
+
+
 #user-menu li:hover{
     font-size: 16px;
     transition: all 0.4s ease;
@@ -79,20 +76,23 @@ body{
     float: left;
     position: relative;
 }
-#spacer_1{
-    width: 8%;
-    float: left;
-}
-#post-header #search{
+
+#post-header #search-container{
     position: absolute;
     background: #333333;
     width: 100%;
     float: left;
     padding: 6px 12px;
-    margin: 0 auto;
 }
+
+#search-container form{
+    margin: 0px 10%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
 .search-area{
-    width: 69%;
+    width: 75%;
     height: 40px;
     background: #cccccc;
     border: none;
@@ -103,7 +103,7 @@ body{
     padding-left: 15px;
 }
 .search-btn{
-    width: 15%;
+    width: 25%;
     height: 40px;
     border-radius: 12px;
     border-bottom-left-radius: 0px;
@@ -365,8 +365,21 @@ strong
     font-weight: bold;
 }
 
+
+
+
 /*header mobile breakpoint*/
 @media only screen and (max-width: 1200px) {
+    #user-menu{
+        margin-top: 28px;
+    }
+    #user-menu li{
+        font-size: 13px;
+        padding: 0px 8px;
+    }
+    #user-menu li:hover{
+        font-size: 14px;
+    }
     .bx-wrapper .bx-pager-item{
         transform: scale(1.1);
         margin-left: 1px;
@@ -380,32 +393,16 @@ strong
 }
 @media only screen and (max-width: 778px) {
     #user-menu{
-        margin-top: 28px;
+        margin-top: 13px;
     }
     #user-menu li{
-        font-size: 13px;
-    }
-    #user-menu #user-menu-cart{
-        width: 145px;
-    }
-    #user-menu #user-menu-wish{
-        width: 105px;
-    }
-    #user-menu #user-menu-user{
-        width: 85px;
+        font-size: 12px;
+        float: none;
+        text-align: left;
+        padding-left: 5px;
     }
     #user-menu li:hover{
-        font-size: 14px;
-    }
-    #spacer_1{
-        width: 0%;
-        visibility: hidden;
-    }
-    .search-area{
-        width: 75%;
-    }
-    .search-btn{
-        width: 25%;
+        font-size: 13px;
     }
     #heading-block{
         padding-top: 18px;
@@ -440,27 +437,6 @@ strong
     }
 }
 @media only screen and (max-width: 560px) {
-    #user-menu{
-        margin-top: 13px;
-    }
-    #user-menu li{
-        font-size: 12px;
-        float: none;
-        text-align: left;
-        padding-left: 5px;
-    }
-    #user-menu #user-menu-cart{
-        width: 120px;
-    }
-    #user-menu #user-menu-wish{
-        width: 120px;
-    }
-    #user-menu #user-menu-user{
-        width: 120px;
-    }
-    #user-menu li:hover{
-        font-size: 13px;
-    }
     .bx-wrapper .bx-pager-item{
         transform: scale(0.7);
         margin-left: 0px;
