@@ -113,9 +113,9 @@
             </div>
             <div id="post-header">
                 <div id="search-container">
-                   <form action="">
+                   <form action="include/search.inc.php" method="post">
                        <input class="search-area" type="text" name="textSearch" placeholder="Search here...">
-                       <input class="search-btn" type="submit" name="submitBtn" value="Search">
+                       <input class="search-btn" type="submit" name="submit" value="Search">
                    </form>                   
                 </div>
             </div>

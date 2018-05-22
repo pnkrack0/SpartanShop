@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 22 Mai 2018 la 00:44
+-- Generation Time: 22 Mai 2018 la 19:36
 -- Versiune server: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -57,17 +57,6 @@ CREATE TABLE `cos` (
   `produs_id` int(11) NOT NULL,
   `cantitate` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Salvarea datelor din tabel `cos`
---
-
-INSERT INTO `cos` (`id`, `user_id`, `produs_id`, `cantitate`) VALUES
-(2, 1, 8, 1),
-(4, 1, 3, 1),
-(5, 1, 11, 1),
-(6, 1, 12, 1),
-(7, 1, 6, 3);
 
 -- --------------------------------------------------------
 
@@ -203,7 +192,7 @@ ALTER TABLE `wishlist`
 -- AUTO_INCREMENT for table `cos`
 --
 ALTER TABLE `cos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `wishlist`
